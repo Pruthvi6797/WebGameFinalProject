@@ -78,4 +78,9 @@ body {
       transform: translate(0, 0);
     }
   }
+  /* Testing */
+  .dissapear {
+    box-shadow: 0 0 50px white;
+    filter: brightness(250%);
+  }
   
