@@ -89,4 +89,22 @@ function startOver() {
   level = 0;
   started = false;
 }
+// Create a function to end the game
+function endGame() {
+  alert("Game over!");
+  simonSequence = [];
+  playerSequence = [];
+  addToSimonSequence();
+  playSimonSequence();
+}
+
+// Add event listeners to the buttons
+redButton.addEventListener("click", onButtonClick);
+greenButton.addEventListener("click", onButtonClick);
+blueButton.addEventListener("click", onButtonClick);
+yellowButton.addEventListener("click", onButtonClick);
+
+// Start the game
+addToSimonSequence();
+playSimonSequence();
 
